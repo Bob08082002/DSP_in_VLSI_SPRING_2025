@@ -1,0 +1,30 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\zhanggenqi\Desktop\DSP_in_VLSI\test_modelsim
+T_opt
+VHUD^iXRF;onOe0dXUkMFN1
+04 9 4 work testbench fast 0
+=1-5811220d8a88-67cad3e9-3cb-2d20
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1c;51
+vtestbench
+Iff@L3kjTY]QP`=^2ICT7S0
+VNY9MQ7RUXU=7^ih[Wo5WS1
+dC:\Users\zhanggenqi\Desktop\DSP_in_VLSI\HW1\MODELSIM
+w1741345741
+8C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/TESTBED/testbench.v
+FC:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/TESTBED/testbench.v
+L0 17
+OL;L;10.1c;51
+r1
+31
+o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/TESTBED/testbench.v|
+!i10b 1
+!s100 jIH<bUF2FBhPNiOYOYUYR3
+!s85 0
+!s108 1741345750.953000
+!s107 C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/TESTBED/testbench.v|

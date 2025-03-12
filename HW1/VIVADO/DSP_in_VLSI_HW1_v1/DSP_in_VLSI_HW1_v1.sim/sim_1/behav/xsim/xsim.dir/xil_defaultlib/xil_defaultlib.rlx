@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/SelectTopK.v,1741753302,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v,,SelectTopK,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v,1741546686,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v,,Comparator;Sort4,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v,1741546261,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/TESTBED/testbench.v,,comparator_tree;find_max,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/TESTBED/testbench.v,1741781627,verilog,,,,clk_gen;testbench,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/VIVADO/DSP_in_VLSI_HW1_v1/DSP_in_VLSI_HW1_v1.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,

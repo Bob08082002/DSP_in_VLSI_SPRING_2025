@@ -1,0 +1,23 @@
+m255
+K3
+13
+cModel Technology
+dC:\modeltech64_10.1c\examples
+vtest
+Vk<3<[f=78GX=_HO53D;7>3
+r1
+!s85 0
+31
+ISQn2kW9:QmkTZd9P^_a5^0
+dC:\Users\zhanggenqi\Desktop\DSP_in_VLSI\test_modelsim
+w1741540190
+8C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/test_modelsim/test.v
+FC:/Users/zhanggenqi/Desktop/DSP_in_VLSI/test_modelsim/test.v
+L0 4
+OL;L;10.1c;51
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/test_modelsim/test.v|
+o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 L?<08bICzIiI=GHLSz8@:2
+!s108 1741540225.082000
+!s107 C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/test_modelsim/test.v|

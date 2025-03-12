@@ -1,0 +1,50 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/SelectTopK.v" Line 1. Module SelectTopK doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v" Line 1. Module Sort4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v" Line 25. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v" Line 25. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v" Line 25. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v" Line 25. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v" Line 25. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 1. Module comparator_tree doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 42. Module find_max doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 42. Module find_max doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 42. Module find_max doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 42. Module find_max doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 42. Module find_max doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 42. Module find_max doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 42. Module find_max doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/SelectTopK.v" Line 1. Module SelectTopK doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v" Line 1. Module Sort4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v" Line 25. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v" Line 25. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v" Line 25. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v" Line 25. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v" Line 25. Module Comparator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 1. Module comparator_tree doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 42. Module find_max doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 42. Module find_max doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 42. Module find_max doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 42. Module find_max doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 42. Module find_max doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 42. Module find_max doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v" Line 42. Module find_max doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_gen
+Compiling module xil_defaultlib.Comparator
+Compiling module xil_defaultlib.Sort4
+Compiling module xil_defaultlib.find_max
+Compiling module xil_defaultlib.comparator_tree
+Compiling module xil_defaultlib.SelectTopK
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

@@ -1,0 +1,6 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/TESTBED/testbench.v,1741781627,verilog,,,,clk_gen;testbench,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/VIVADO/DSP_in_VLSI_HW1_v1/DSP_in_VLSI_HW1_v1.sim/sim_1/synth/timing/xsim/testbench_time_synth.v,1741782853,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/TESTBED/testbench.v,,Comparator;Comparator_6;Comparator_7;Comparator_8;Comparator_9;SelectTopK;Sort4;comparator_tree;find_max;find_max_0;find_max_1;find_max_2;find_max_3;find_max_4;find_max_5;glbl,,,,,,,,

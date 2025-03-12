@@ -1,0 +1,24 @@
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/SelectTopK.v {1 {vlog -work work -vopt C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/SelectTopK.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module SelectTopK
+
+Top level modules:
+	SelectTopK
+
+} {} {}} C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v {1 {vlog -work work -vopt C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module comparator_tree
+-- Compiling module find_max
+
+Top level modules:
+	comparator_tree
+
+} {} {}} C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v {1 {vlog -work work -vopt C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Sort4
+-- Compiling module Comparator
+
+Top level modules:
+	Sort4
+
+} {} {}}

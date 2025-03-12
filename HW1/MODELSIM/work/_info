@@ -1,0 +1,160 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\zhanggenqi\Desktop\DSP_in_VLSI\test_modelsim
+T_opt
+VHUD^iXRF;onOe0dXUkMFN1
+04 9 4 work testbench fast 0
+=1-5811220d8a88-67cad3e9-3cb-2d20
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1c;51
+Z1 dC:\Users\zhanggenqi\Desktop\DSP_in_VLSI\test_modelsim
+vclk_gen
+V5cQHd5BT893P;O<33]fd_2
+r1
+31
+I@Ijob0^Dje]LTz86V;cZh1
+Z2 dC:\Users\zhanggenqi\Desktop\DSP_in_VLSI\HW1\MODELSIM
+Z3 w1741753267
+Z4 8C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/TESTBED/testbench.v
+Z5 FC:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/TESTBED/testbench.v
+L0 187
+Z6 OL;L;10.1c;51
+Z7 !s108 1741754345.265000
+Z8 !s107 C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/TESTBED/testbench.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/TESTBED/testbench.v|
+Z10 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s85 0
+!s100 <:eG7kS@nLFZK<ZdTz=@V2
+!i10b 1
+vComparator
+VXHC;R8DDBV]^LOEPA25NT3
+r1
+31
+IlH18Lk[CQ[h2fiJ_^E@[60
+R2
+Z11 w1741546686
+Z12 8C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v
+Z13 FC:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v
+L0 25
+R6
+Z14 !s108 1741754345.220000
+Z15 !s107 C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v|
+Z16 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/Sort4.v|
+R10
+n@comparator
+!s85 0
+!s100 ;jg2T2m]h;DzaN1EBomM32
+!i10b 1
+vcomparator_tree
+V0?I9DD9^o?:mXFDbEfAzn1
+r1
+31
+IcV9:`^77VE<YJ5CVZlkPz2
+R2
+Z17 w1741546261
+Z18 8C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v
+Z19 FC:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v
+L0 1
+R6
+Z20 !s108 1741754345.134000
+Z21 !s107 C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/comparator_tree.v|
+R10
+!s85 0
+!s100 INag`E0_5B^JiZ3oQ@>n43
+!i10b 1
+vfind_max
+VhDg>TfU9BSO5gUNhG[zEd3
+r1
+!s85 0
+31
+Ik2K^80UI3U<N@mijnMUGA1
+R2
+R17
+R18
+R19
+L0 42
+R6
+R20
+R21
+R22
+R10
+!s100 FDX4P9RlAc@in3FKT]NWA0
+!i10b 1
+vmerge_sort
+V[TkMSmgURRUmGINLdS5PA2
+r1
+31
+I<dA0OmGH9SzPERg8bnj@92
+R2
+w1741548095
+8C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/merge_sort.v
+FC:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/merge_sort.v
+L0 1
+R6
+R10
+!s100 iYHZ<W`7zPD[N9@W_K@AB0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/merge_sort.v|
+!s108 1741548517.767000
+!s107 C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/merge_sort.v|
+!s85 0
+!i10b 1
+vSelectTopK
+Vk68GJzQ09MkiRUF?]VR6T3
+r1
+31
+I_B31l9VkWPB@@CGRUckiE0
+R2
+w1741753302
+8C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/SelectTopK.v
+FC:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/SelectTopK.v
+L0 1
+R6
+R10
+n@select@top@k
+!s85 0
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/SelectTopK.v|
+!i10b 1
+!s100 d@HCCeO2OU=_b0EB;kRL;3
+!s108 1741754345.306000
+!s107 C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW1/RTL/SelectTopK.v|
+vSort4
+V@noO7TJjcRW59Y<0F?KBL3
+r1
+31
+IE<dP3UDjZiQ@ZA=K2h?1J0
+R2
+R11
+R12
+R13
+L0 1
+R6
+R14
+R15
+R16
+R10
+n@sort4
+!s85 0
+!s100 RhWCTdTkML7i4jPUKglg;2
+!i10b 1
+vtestbench
+VDDcMCSAzcI9h4LeeFFQbT2
+r1
+31
+I<@n?K1P`m^?XJM<NGU15_1
+R2
+R3
+R4
+R5
+L0 22
+R6
+R7
+R8
+R9
+R10
+!s85 0
+!s100 kDob8GhWPke@`IZ=o6EZL2
+!i10b 1
