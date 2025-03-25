@@ -1,0 +1,428 @@
+
+*** Running vivado
+    with args -log FIR.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source FIR.tcl
+
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Tue Mar 25 19:27:24 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source FIR.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 513.973 ; gain = 195.109
+Command: read_checkpoint -auto_incremental -incremental C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_parallel_v1/DSP_in_VLSI_HW2_parallel_v1.srcs/utils_1/imports/synth_1/FIR.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_parallel_v1/DSP_in_VLSI_HW2_parallel_v1.srcs/utils_1/imports/synth_1/FIR.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top FIR -part xc7a200tfbg676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tfbg676-1
+INFO: [Device 21-9227] Part: xc7a200tfbg676-1 does not have CEAM library.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18684
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1427.926 ; gain = 453.762
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'FIR' [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/RTL/parallel_FIR/FIR.v:4]
+INFO: [Synth 8-6157] synthesizing module 'FIR_subblock_init_last' [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/RTL/parallel_FIR/FIR.v:139]
+INFO: [Synth 8-6155] done synthesizing module 'FIR_subblock_init_last' (0#1) [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/RTL/parallel_FIR/FIR.v:139]
+INFO: [Synth 8-6157] synthesizing module 'FIR_subblock_parallel' [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/RTL/parallel_FIR/FIR.v:91]
+INFO: [Synth 8-6155] done synthesizing module 'FIR_subblock_parallel' (0#1) [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/RTL/parallel_FIR/FIR.v:91]
+INFO: [Synth 8-6155] done synthesizing module 'FIR' (0#1) [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/RTL/parallel_FIR/FIR.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1537.070 ; gain = 562.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1537.070 ; gain = 562.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1537.070 ; gain = 562.906
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1537.070 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_parallel_v1/constraint/DSP_in_VLSI_HW2_parallel.xdc]
+WARNING: [Constraints 18-6211] Setting input delay on a clock pin 'clk' relative to clock 'clk' defined on the same pin is not supported, ignoring it [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_parallel_v1/constraint/DSP_in_VLSI_HW2_parallel.xdc:2]
+Finished Parsing XDC File [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_parallel_v1/constraint/DSP_in_VLSI_HW2_parallel.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1638.699 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1638.699 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1638.699 ; gain = 664.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1638.699 ; gain = 664.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1638.699 ; gain = 664.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1638.699 ; gain = 664.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   20 Bit       Adders := 34    
+	   2 Input   17 Bit       Adders := 2     
+	   2 Input   16 Bit       Adders := 32    
++---Registers : 
+	               16 Bit    Registers := 18    
+	               14 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 72    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP prod, operation Mode is: A*B.
+DSP Report: operator prod is absorbed into DSP prod.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod_1, operation Mode is: A*B.
+DSP Report: operator prod_1 is absorbed into DSP prod_1.
+DSP Report: Generating DSP prod_0, operation Mode is: A*B.
+DSP Report: operator prod_0 is absorbed into DSP prod_0.
+DSP Report: Generating DSP prod, operation Mode is: A*B.
+DSP Report: operator prod is absorbed into DSP prod.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1638.699 ; gain = 664.535
+---------------------------------------------------------------------------------
+ Sort Area is  prod_0 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_10 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_12 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_14 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_16 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_18 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_1a : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_1c : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_1e : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_2 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_20 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_4 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_6 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_8 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_a : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_c : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_0_e : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_11 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_13 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_15 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_17 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_19 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_1b : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_1d : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_1f : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_21 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_3 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_5 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_7 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_9 : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_b : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_d : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_1_f : 0 0 : 1494 1494 : Used 1 time 0
+ Sort Area is  prod_22 : 0 0 : 1494 1494 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++-----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name            | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|FIR_subblock_init_last | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_init_last | A*B         | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1638.699 ; gain = 664.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1638.699 ; gain = 664.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1638.699 ; gain = 664.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1638.699 ; gain = 664.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1638.699 ; gain = 664.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1638.699 ; gain = 664.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1638.699 ; gain = 664.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1638.699 ; gain = 664.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1638.699 ; gain = 664.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++-----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name            | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|FIR_subblock_parallel  | A'*B        | 30     | 6      | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 5      | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 18     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 18     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 18     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 8      | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 10     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 10     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 11     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 10     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 10     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 8      | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 18     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 18     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 18     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 5      | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_init_last | A'*B        | 30     | 6      | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_init_last | A'*B        | 30     | 6      | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 5      | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 18     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 18     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 18     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 8      | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 10     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 10     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 11     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 10     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 10     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 8      | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 18     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 18     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 18     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 5      | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|FIR_subblock_parallel  | A'*B        | 30     | 6      | -      | -      | 28     | 1    | 0    | -    | -    | -     | 0    | 0    | 
++-----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |   371|
+|3     |DSP48E1 |    34|
+|4     |LUT1    |    36|
+|5     |LUT2    |   376|
+|6     |LUT3    |    54|
+|7     |LUT4    |   498|
+|8     |LUT6    |    16|
+|9     |FDRE    |   290|
+|10    |IBUF    |    31|
+|11    |OBUF    |    33|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1638.699 ; gain = 664.535
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1638.699 ; gain = 562.906
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1638.699 ; gain = 664.535
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1638.699 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 405 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1638.699 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: e2bc6dad
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1638.699 ; gain = 1120.547
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1638.699 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_parallel_v1/DSP_in_VLSI_HW2_parallel_v1.runs/synth_1/FIR.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file FIR_utilization_synth.rpt -pb FIR_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 25 19:27:59 2025...

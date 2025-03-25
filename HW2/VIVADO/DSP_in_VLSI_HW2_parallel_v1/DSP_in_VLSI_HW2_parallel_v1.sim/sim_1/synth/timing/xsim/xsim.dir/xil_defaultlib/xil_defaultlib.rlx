@@ -1,0 +1,6 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/TESTBED/testbench.v,1742901796,verilog,,,,clk_gen;testbench,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_parallel_v1/DSP_in_VLSI_HW2_parallel_v1.sim/sim_1/synth/timing/xsim/testbench_time_synth.v,1742902219,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/TESTBED/testbench.v,,FIR;FIR_subblock_init_last;FIR_subblock_init_last_7;FIR_subblock_parallel;FIR_subblock_parallel_0;FIR_subblock_parallel_1;FIR_subblock_parallel_10;FIR_subblock_parallel_11;FIR_subblock_parallel_12;FIR_subblock_parallel_13;FIR_subblock_parallel_14;FIR_subblock_parallel_15;FIR_subblock_parallel_2;FIR_subblock_parallel_3;FIR_subblock_parallel_4;FIR_subblock_parallel_5;FIR_subblock_parallel_6;FIR_subblock_parallel_8;FIR_subblock_parallel_9;glbl,,,,,,,,

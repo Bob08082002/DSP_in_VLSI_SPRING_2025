@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_pipeline_v3/DSP_in_VLSI_HW2_pipeline_v3.sim/sim_1/synth/timing/xsim/testbench_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIR
+INFO: [VRFC 10-311] analyzing module FIR_subblock
+INFO: [VRFC 10-311] analyzing module FIR_subblock_0
+INFO: [VRFC 10-311] analyzing module FIR_subblock_1
+INFO: [VRFC 10-311] analyzing module FIR_subblock_10
+INFO: [VRFC 10-311] analyzing module FIR_subblock_11
+INFO: [VRFC 10-311] analyzing module FIR_subblock_12
+INFO: [VRFC 10-311] analyzing module FIR_subblock_13
+INFO: [VRFC 10-311] analyzing module FIR_subblock_14
+INFO: [VRFC 10-311] analyzing module FIR_subblock_15
+INFO: [VRFC 10-311] analyzing module FIR_subblock_2
+INFO: [VRFC 10-311] analyzing module FIR_subblock_3
+INFO: [VRFC 10-311] analyzing module FIR_subblock_4
+INFO: [VRFC 10-311] analyzing module FIR_subblock_5
+INFO: [VRFC 10-311] analyzing module FIR_subblock_6
+INFO: [VRFC 10-311] analyzing module FIR_subblock_7
+INFO: [VRFC 10-311] analyzing module FIR_subblock_8
+INFO: [VRFC 10-311] analyzing module FIR_subblock_9
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/TESTBED/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-311] analyzing module clk_gen

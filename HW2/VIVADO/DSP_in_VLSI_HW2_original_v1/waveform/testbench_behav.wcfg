@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="11,044.044 ns"></ZoomStartTime>
+      <ZoomEndTime time="11,232.045 ns"></ZoomEndTime>
+      <Cursor1Time time="13,350.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="288"></NameColumnWidth>
+      <ValueColumnWidth column_width="125"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/testbench/FIR_u0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FIR_u0/i_rst" type="logic">
+      <obj_property name="ElementShortName">i_rst</obj_property>
+      <obj_property name="ObjectShortName">i_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FIR_u0/ValidIn" type="logic">
+      <obj_property name="ElementShortName">ValidIn</obj_property>
+      <obj_property name="ObjectShortName">ValidIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FIR_u0/FilterIn" type="array">
+      <obj_property name="ElementShortName">FilterIn[13:0]</obj_property>
+      <obj_property name="ObjectShortName">FilterIn[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FIR_u0/input_FF" type="array">
+      <obj_property name="ElementShortName">input_FF[13:0]</obj_property>
+      <obj_property name="ObjectShortName">input_FF[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FIR_u0/valid_in_FF1" type="logic">
+      <obj_property name="ElementShortName">valid_in_FF1</obj_property>
+      <obj_property name="ObjectShortName">valid_in_FF1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FIR_u0/valid_in_FF2" type="logic">
+      <obj_property name="ElementShortName">valid_in_FF2</obj_property>
+      <obj_property name="ObjectShortName">valid_in_FF2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FIR_u0/ValidOut" type="logic">
+      <obj_property name="ElementShortName">ValidOut</obj_property>
+      <obj_property name="ObjectShortName">ValidOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FIR_u0/FilterOut" type="array">
+      <obj_property name="ElementShortName">FilterOut[15:0]</obj_property>
+      <obj_property name="ObjectShortName">FilterOut[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FIR_u0/interconnet" type="array">
+      <obj_property name="ElementShortName">interconnet[15:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">interconnet[15:0][15:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,79 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Mar 25 13:19:08 2025
+# Process ID: 2884
+# Current directory: C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_pipeline_v2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19632 C:\Users\zhanggenqi\Desktop\DSP_in_VLSI\HW2\VIVADO\DSP_in_VLSI_HW2_pipeline_v2\DSP_in_VLSI_HW2_pipeline_v2.xpr
+# Log file: C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_pipeline_v2/vivado.log
+# Journal file: C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_pipeline_v2\vivado.jou
+# Running On        :DESKTOP-T5CR5M4
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-12500
+# CPU Frequency     :2995 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :16905 MB
+# Swap memory       :4288 MB
+# Total Virtual     :21193 MB
+# Available Virtual :4342 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_pipeline_v2/DSP_in_VLSI_HW2_pipeline_v2.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_pipeline_v1/constraint/DSP_in_VLSI_HW2_pipeline.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_pipeline_v1/constraint/DSP_in_VLSI_HW2_pipeline.xdc
+add_files -fileset constrs_1 -norecurse C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_pipeline_v2/constraint/DSP_in_VLSI_HW2_pipeline.xdc
+launch_simulation
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_pipeline_v2/waveform/testbench_behav.wcfg
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_pipeline_v2/waveform/testbench_time_synth.wcfg
+source testbench.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+launch_simulation -mode post-synthesis -type timing
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_pipeline_v2/waveform/testbench_behav.wcfg
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_pipeline_v2/waveform/testbench_time_synth.wcfg
+source testbench.tcl
+restart
+run all
+close_sim
+launch_simulation -mode post-synthesis -type timing
+close_sim
+launch_simulation
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_pipeline_v2/waveform/testbench_behav.wcfg
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_pipeline_v2/waveform/testbench_time_synth.wcfg
+source testbench.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+refresh_design
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+launch_simulation -mode post-synthesis -type timing
+launch_simulation -mode post-synthesis -type timing
+launch_simulation -mode post-synthesis -type timing
+close_sim
+launch_simulation -mode post-synthesis -type timing
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+launch_simulation -mode post-synthesis -type timing

@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/VIVADO/DSP_in_VLSI_HW2_parallel_v1/DSP_in_VLSI_HW2_parallel_v1.sim/sim_1/synth/timing/xsim/testbench_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIR
+INFO: [VRFC 10-311] analyzing module FIR_subblock_init_last
+INFO: [VRFC 10-311] analyzing module FIR_subblock_init_last_7
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel_0
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel_1
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel_10
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel_11
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel_12
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel_13
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel_14
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel_15
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel_2
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel_3
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel_4
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel_5
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel_6
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel_8
+INFO: [VRFC 10-311] analyzing module FIR_subblock_parallel_9
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW2/TESTBED/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-311] analyzing module clk_gen
