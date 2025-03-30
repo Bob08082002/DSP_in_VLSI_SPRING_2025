@@ -13,14 +13,14 @@ after_add_bitwidth = [[4 7]; [4 8]; [4 9]; [4 10]; [4 11]; [4 12]];  % [a b] mea
 
 %mode = "draw_report_p1"; % Plot the impulse response and frequency response
 %mode = "draw_report_p2"; % Plot the time domain input and output signal
-%mode = "bitwidth_vs_error_datatype_seperated"; % For report P3
+mode = "bitwidth_vs_error_datatype_seperated"; % For report P3
 datatype = 4; % only effect when mode is bitwidth_vs_error_datatype_seperated: 1-> input, 2-> coeff, 3-> after_mul, 4-> after_add
 %mode = "bitwidth_vs_error_datatype_combined"; % For report P3 & P4
 quantize_bitwidth_setting = [[4 10]; [4 10]; [4 12]; [4 12]];  % final bitwidth setting
 %mode = "datatype_combined_save_coeff_and_input";
 coeff_file_path = '../TESTBED/pattern/COEFF.dat';
 input_file_path = '../TESTBED/pattern/INPUT.dat';
-mode = "hardware_report_p5"; %Show the errors of hardware outputs and Matlab floating-point results
+%mode = "hardware_report_p5"; %Show the errors of hardware outputs and Matlab floating-point results
 output_file_path = '../TESTBED/pattern/OUTPUT.dat';
 % mode = "";
 
@@ -116,6 +116,10 @@ elseif mode == "bitwidth_vs_error_datatype_seperated" % only 'one' data type can
     % eval RMSE of different bitwidth setting
     rmse_array = zeros(1, size(datatype_bitwidth, 1));
     for i = 1:length(rmse_array)
+        input_bitwidth_valid = [0 0];
+        coeff_bitwidth_valid = [0 0];
+        after_mul_bitwidth_valid = [0 0];
+        after_add_bitwidth_valid = [0 0];
         if quantize_datatype(1)
             input_bitwidth_valid = input_bitwidth(i,:);
         elseif quantize_datatype(2)
@@ -136,7 +140,7 @@ elseif mode == "bitwidth_vs_error_datatype_seperated" % only 'one' data type can
     % obtain x axis string array (for plotting)
     x_axis_strings = strings(1, size(datatype_bitwidth,1)); 
     for i = 1:size(datatype_bitwidth,1)
-        x_axis_strings(i) = sprintf('S%d.%d', datatype_bitwidth(i,1), datatype_bitwidth(i,2));
+        x_axis_strings(i) = sprintf('S%d.%d', datatype_bitwidth(i,1) - 1, datatype_bitwidth(i,2)); % signed a.b = S(a-1).b
     end
     x_labels = categorical(x_axis_strings);% Convert to categorical for proper x-axis labeling
     x_labels = reordercats(x_labels, x_axis_strings); % Keep the correct order
