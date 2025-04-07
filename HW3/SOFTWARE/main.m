@@ -172,24 +172,46 @@ if mode == "draw_report_p1_2"
     legend;
     grid on;
 else
-    !use exp有dif的
-    operand_A = string_to_fixpoint('1100000110000000111', 19, 0);
-    %operand_A = string_to_fixpoint('1000000000000000000', 19, 0);
-    operand_B = string_to_fixpoint('0100000110000000101', 19, 0);
-    disp(TF32_add(operand_A, operand_B));
-    % fp_num = fi(10000,1,4,2,'RoundingMethod','Nearest');
-    % fp_num2 = fi(10000,1,4,2,'RoundingMethod','Nearest');
-    % a = fi(fp_num + fp_num2,1,4,2,'RoundingMethod','Nearest');
-    % disp(a);
-    % disp(bin(a));
-    % b = fp_num + fp_num2;
-    % disp(b);
-    % disp(bin(b));
-    % disp('fp_num');
-    % disp(fp_num);
-    % disp(bin(fp_num));
-    % num = [0 2];
-    % num(1) = (99.999 * double(fp_num));
-    % disp(num(1));
+    
+    % % 讀取 A.dat 和 B.dat
+    % A_lines = readlines('../TF32_Project/genpattern/MY_pattern/ADD/A.dat');
+    % B_lines = readlines('../TF32_Project/genpattern/MY_pattern/ADD/B.dat');
+    % 
+    % % 確保兩檔案行數一致
+    % assert(length(A_lines) == length(B_lines), 'A.dat 和 B.dat 行數不一致');
+    % 
+    % % 開啟輸出檔案
+    % out_file = fopen('../TF32_Project/genpattern/MY_pattern/ADD/OUT.dat', 'w');
+    % 
+    % % 處理每一行
+    % for i = 1:length(A_lines)
+    %     disp('-----------------------------------------------------')
+    % 
+    %     bin_str_A = strtrim(A_lines(i));  % 去除空白
+    %     bin_str_B = strtrim(B_lines(i));
+    % 
+    % 
+    %     % 轉成 fixed point
+    %     operand_A = string_to_fixpoint(char(bin_str_A), 19, 0);
+    %     operand_B = string_to_fixpoint(char(bin_str_B), 19, 0);
+    %     % 執行加法
+    %     result = TF32_add(operand_A, operand_B);
+    % 
+    %     % 轉成 binary 並寫入檔案
+    %     fprintf(out_file, '%s\n', bin(result));
+    % end
+    % 
+    % % 關閉檔案
+    % fclose(out_file);
+
+
+
+    operand_A = string_to_fixpoint('1100000110000000111', 19, 0);operand_B = string_to_fixpoint('0100000110000000101', 19, 0);disp(bin(TF32_add(operand_A, operand_B)));  % 1011110100000000000
+    operand_A = string_to_fixpoint('1100000110000000111', 19, 0);operand_B = string_to_fixpoint('1100100110000000101', 19, 0);disp(bin(TF32_add(operand_A, operand_B)));  % 1100100110000000101
+    % operand_A = string_to_fixpoint('1000000000000000000', 19, 0);operand_B = string_to_fixpoint('0111111010001000110', 19, 0);disp(bin(TF32_add(operand_A, operand_B)));
+    % operand_A = string_to_fixpoint('1100100110000000101', 19, 0);operand_B = string_to_fixpoint('1000000000000000000', 19, 0);disp(bin(TF32_add(operand_A, operand_B)));
+    % operand_A = string_to_fixpoint('1100100110000000101', 19, 0);operand_B = string_to_fixpoint('0100100110000000101', 19, 0);disp(bin(TF32_add(operand_A, operand_B)));
+    % operand_A = string_to_fixpoint('0000000000000000000', 19, 0);operand_B = string_to_fixpoint('1000000000000000000', 19, 0);disp(bin(TF32_add(operand_A, operand_B)));
+
 
 end

@@ -3,40 +3,58 @@ K3
 13
 cModel Technology
 dC:\Users\zhanggenqi\Desktop\DSP_in_VLSI\HW1\MODELSIM
+vtest
+Vk<3<[f=78GX=_HO53D;7>3
+r1
+31
+Imk<DH2dmSYV]@a4PnE0082
+Z0 dC:\Users\zhanggenqi\Desktop\DSP_in_VLSI\HW3\TF32_Project
+w1744016364
+8C:\Users\zhanggenqi\Desktop\DSP_in_VLSI\HW3\TF32_Project\tb.v
+FC:\Users\zhanggenqi\Desktop\DSP_in_VLSI\HW3\TF32_Project\tb.v
+L0 22
+Z1 OL;L;10.1c;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s85 0
+!s108 1744016371.237000
+!s107 ./TF32_add.v|C:\Users\zhanggenqi\Desktop\DSP_in_VLSI\HW3\TF32_Project\tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:\Users\zhanggenqi\Desktop\DSP_in_VLSI\HW3\TF32_Project\tb.v|
+!s100 [KSHa>zKZTID5WM7Na4YA0
+!i10b 1
 vtestbench
 VhGfW:390DM[oDMzegDH9`2
 r1
 31
-I5=b[TXT?kQi74C0aAG:9[3
-Z0 dC:\Users\zhanggenqi\Desktop\DSP_in_VLSI\HW3\TF32_Project
-w1743630086
-8testbench.v
-Ftestbench.v
+IM[SWzjK_:VIdk7YBVYWcP1
+Z3 dC:\Users\zhanggenqi\Desktop\DSP_in_VLSI\HW3\TF32_Project
+w1744004787
+8C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW3/TF32_Project/testbench.v
+FC:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW3/TF32_Project/testbench.v
 L0 7
-Z1 OL;L;10.1c;51
-Z2 !s108 1743634184.353000
-Z3 !s107 ./TF32_add.v|testbench.v|
-Z4 !s90 -reportprogress|300|testbench.v|./TF32_add.v|
-Z5 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+R1
+R2
+!s100 H7c8Q2UG9amUZ2n@hneYQ2
+!s108 1744006795.329000
+!s107 C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW3/TF32_Project/testbench.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW3/TF32_Project/testbench.v|
 !s85 0
-!s100 F[iLbO67=z355iBP1n57H0
 !i10b 1
 vTF32_add
 VTKaaWBWAOnd5`dSA]T>7b3
 r1
 !s85 0
 31
-IcGiTEk@U;z=meXFj=f2=^0
-Z6 dC:\Users\zhanggenqi\Desktop\DSP_in_VLSI\HW3\TF32_Project
-w1743634177
-8./TF32_add.v
-F./TF32_add.v
+IBfdTizCUl;oPDzjEhIeXX1
+R3
+w1744011686
+8C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW3/TF32_Project/TF32_add.v
+FC:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW3/TF32_Project/TF32_add.v
 L0 13
 R1
 R2
-R3
-R4
-R5
 n@t@f32_add
 !i10b 1
-!s100 4^J<S8>ZeJooa>>Kn_eW`3
+!s100 E2nT5^Bb6dIbdD=:C>lP50
+!s108 1744016371.279000
+!s107 C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW3/TF32_Project/TF32_add.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW3/TF32_Project/TF32_add.v|
