@@ -5,17 +5,20 @@
 
 //pre-sim
 `include "./TF32_add.v"
-`define ADD
+`include "./TF32_mul.v"
+
+//`define ADD
+`define MUL
+
+`define A_data_path "./genpattern/MY_pattern/A.dat"
+`define B_data_path "./genpattern/MY_pattern/B.dat"
+
 `ifdef ADD
-	`define A_data_path "./genpattern/MY_pattern/ADD/A.dat"
-	`define B_data_path "./genpattern/MY_pattern/ADD/B.dat"
 	`define OUT_data_path "./genpattern/MY_pattern/ADD/OUT.dat"
 	`define INST 1'b0
-`else 
-	`define A_data_path "./genpattern/MY_pattern/ADD/A.dat"
-	`define B_data_path "./genpattern/MY_pattern/ADD/B.dat"
-	`define OUT_data_path "./genpattern/MY_pattern/ADD/OUT.dat"
-	`define INST 1'b0
+`else // MUL
+	`define OUT_data_path "./genpattern/MY_pattern/MUL/OUT.dat"
+	`define INST 1'b1
 `endif
 
 
@@ -26,7 +29,7 @@ reg	clk;
 
 reg [18:0]testing_input_A, testing_input_B;
 
-wire [18:0]result_wire;
+wire [18:0]result_add_wire, result_mul_wire;
 wire less_than_flag_wire;
 
 // TB variables
@@ -41,7 +44,8 @@ integer error, correct;
 integer output_finish_flag;
 
 
-TF32_add TF32_add_u0(result_wire, testing_input_A, testing_input_B); 
+TF32_add TF32_add_u0(result_add_wire, testing_input_A, testing_input_B); 
+TF32_mul TF32_mul_u0(result_mul_wire, testing_input_A, testing_input_B); 
 	
 //clock generator
 initial begin
@@ -84,14 +88,14 @@ initial begin
 	`ifdef ADD
 		while(j < `TEST_NUM)begin
 			@(posedge clk);
-			if(result_wire === OUT_data[j])begin
+			if(result_add_wire === OUT_data[j])begin
 				correct = correct + 1;
 			end
-			else if(OUT_data[j] === {1'b1, 18'b0} && result_wire === 19'b0)begin //result should be neg zero, but in this homework, all opertion with zeros result in (+0)
+			else if(OUT_data[j] === {1'b1, 18'b0} && result_add_wire === 19'b0)begin //result should be neg zero, but in this homework, all opertion with zeros result in (+0)
 				$display(
 				"Warning! Result should be neg zero, but get pos zero! \n A[%d] = %b(%h), B[%d] = %b(%h), INST = %b, \n Golden = %b(%h). Yours = %b(%h)", 
 				j, A_data[j], A_data[j], j, B_data[j], B_data[j], `INST,
-				OUT_data[j], OUT_data[j], result_wire, result_wire
+				OUT_data[j], OUT_data[j], result_add_wire, result_add_wire
 				);
 				correct = correct + 1;
 			end
@@ -99,7 +103,33 @@ initial begin
 				$display(
 				"Error! A[%d] = %b(%h), B[%d] = %b(%h), INST = %b, \n Golden = %b(%h). Yours = %b(%h)", 
 				j, A_data[j], A_data[j], j, B_data[j], B_data[j], `INST,
-				OUT_data[j], OUT_data[j], result_wire, result_wire
+				OUT_data[j], OUT_data[j], result_add_wire, result_add_wire
+				);
+				error = error + 1;
+			end
+			
+			@(negedge clk);
+			j = j + 1;
+		end
+	`else
+		while(j < `TEST_NUM)begin
+			@(posedge clk);
+			if(result_mul_wire === OUT_data[j])begin
+				correct = correct + 1;
+			end
+			else if(OUT_data[j] === {1'b1, 18'b0} && result_mul_wire === 19'b0)begin //result should be neg zero, but in this homework, all opertion with zeros result in (+0)
+				$display(
+				"Warning! Result should be neg zero, but get pos zero! \n A[%d] = %b(%h), B[%d] = %b(%h), INST = %b, \n Golden = %b(%h). Yours = %b(%h)", 
+				j, A_data[j], A_data[j], j, B_data[j], B_data[j], `INST,
+				OUT_data[j], OUT_data[j], result_mul_wire, result_mul_wire
+				);
+				correct = correct + 1;
+			end
+			else begin
+				$display(
+				"Error! A[%d] = %b(%h), B[%d] = %b(%h), INST = %b, \n Golden = %b(%h). Yours = %b(%h)", 
+				j, A_data[j], A_data[j], j, B_data[j], B_data[j], `INST,
+				OUT_data[j], OUT_data[j], result_mul_wire, result_mul_wire
 				);
 				error = error + 1;
 			end

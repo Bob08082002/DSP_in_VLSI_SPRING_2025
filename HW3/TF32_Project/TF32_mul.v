@@ -79,11 +79,11 @@ always@(*)begin
 		//result_s = ((Is_A_Zero_neg && Is_B_Zero_neg && (!inst)) || (Is_A_Zero_neg && Is_B_Zero_pos && (inst)))? 1:0; //(-0) + (-0) = -0, (-0) - (+0) = -0, otherwise (+0)
 		result_s = 1'b0; // in this homework, for simplify, all operations of signed zeros result to +0
 	end
-	// else if(final_result_exp_sum_bias32 > 10'd413)begin // overflow // no handle infinity in this hw
-	// 	result_m = 23'b0;
-	// 	result_e = 8'd255;
-	// 	result_s = sign_bit;
-	// end
+	else if(final_result_exp_sum_bias32 > 10'd413)begin // overflow // no handle infinity in this hw: saturate to max normal num 
+		result_m = {10{1'b1}};
+		result_e = 8'd254;
+		result_s = operand_A[18] ^ operand_B[18];
+	end
 	else if(final_result_exp_sum_bias32 < 10'd160)begin // subnormal number // no handle subnormal number in this hw
 		result_m = 10'b0;
 		result_e = 8'd0;

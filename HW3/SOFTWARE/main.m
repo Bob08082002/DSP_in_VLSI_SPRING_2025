@@ -8,8 +8,8 @@ m_all = 1:40; % get input (range need to cover m1, m2)
 
 cases = "2"; % @ over-sampled cases or typical cases
 mode = "draw_report_p1_2"; % 3 method of interpolator @ over-sampled cases or typical cases
-mode = "";
-
+%mode = "generate_TF32_add_mul_bittrue_result"; % for debugging usage
+% mode = "";
 % ------------- obtain input signal @ case 1 (float) -------------
 % over-sampled cases
 x1_in_float = zeros(size(m_all)); 
@@ -24,74 +24,79 @@ for i = 1:length(m_all)
     x2_in_float(i) =  (2^-15) * cos(2 * pi * (2 * i / 5 + 1));
 end
 
-% 
-% 
-% % ------------- obtain interpolation result and error @ case 1 (float) -------------
-% % over-sampled cases
-% m1_values = zeros(1, length(m1) * length(u_list)); % 對應的 m+μ 值
-% % Linear
-% x1_linear_float = zeros(1, length(m1)*length(u_list));
-% err1_linear_float = zeros(1, length(m1)*length(u_list)); % error between linear interpolator and real value
-% % Second order
-% x1_second_order_float = zeros(1, length(m1)*length(u_list));
-% err1_second_order_float = zeros(1, length(m1)*length(u_list)); % error between second order interpolator and real value
-% % Parabolic
-% x1_parabolic_float = zeros(1, length(m1)*length(u_list));
-% err1_parabolic_float = zeros(1, length(m1)*length(u_list)); % error between parabolic interpolator and real value
-% 
-% index = 1;
-% for m = m1
-%     for u = u_list
-%         real_value =  cos(2 * pi * ((m + u) / 8)); % Real (continuous) waveform
-%         m1_values(index) = m + u; % 記錄對應的 m+μ
-% 
-%         % Linear interpolation
-%         x1_linear_float(index) = linear_interpolation_float(u, x1_in_float(m + 1), x1_in_float(m));
-%         err1_linear_float(index) = real_value - x1_linear_float(index); % cal error
-%         % Second order interpolation
-%         x1_second_order_float(index) = second_order_interpolation_float(u, x1_in_float(m + 2), x1_in_float(m + 1), x1_in_float(m));
-%         err1_second_order_float(index) = real_value - x1_second_order_float(index); % cal error
-%         % Parabolic interpolation
-%         x1_parabolic_float(index) = parabolic_interpolation_float(u, x1_in_float(m + 2), x1_in_float(m + 1), x1_in_float(m), x1_in_float(m - 1));
-%         err1_parabolic_float(index) = real_value - x1_parabolic_float(index); % cal error
-% 
-%         index = index + 1;
-%     end
-% end
-% 
-% % ------------- obtain interpolation result and error @ case 2 (float) -------------
-% % typical cases
-% m2_values = zeros(1, length(m2) * length(u_list)); % 對應的 m+μ 值
-% % Linear
-% x2_linear_float = zeros(1, length(m2)*length(u_list));
-% err2_linear_float = zeros(1, length(m2)*length(u_list)); % error between linear interpolator and real value
-% % Second order
-% x2_second_order_float = zeros(1, length(m2)*length(u_list));
-% err2_second_order_float = zeros(1, length(m2)*length(u_list)); % error between second order interpolator and real value
-% % Parabolic
-% x2_parabolic_float = zeros(1, length(m2)*length(u_list));
-% err2_parabolic_float = zeros(1, length(m2)*length(u_list)); % error between parabolic interpolator and real value
-% 
-% index = 1;
-% for m = m2
-%     for u = u_list
-%         real_value =  (2^-15) * cos(2 * pi * (2 * (m + u) / 5 + 1)); % Real (continuous) waveform of case 2
-%         m2_values(index) = m + u; % 記錄對應的 m+μ
-% 
-%         % Linear interpolation
-%         x2_linear_float(index) = linear_interpolation_float(u, x2_in_float(m + 1), x2_in_float(m));
-%         err2_linear_float(index) = real_value - x2_linear_float(index); % cal error
-%         % Second order interpolation
-%         x2_second_order_float(index) = second_order_interpolation_float(u, x2_in_float(m + 2), x2_in_float(m + 1), x2_in_float(m));
-%         err2_second_order_float(index) = real_value - x2_second_order_float(index); % cal error
-%         % Parabolic interpolation
-%         x2_parabolic_float(index) = parabolic_interpolation_float(u, x2_in_float(m + 2), x2_in_float(m + 1), x2_in_float(m), x2_in_float(m - 1));
-%         err2_parabolic_float(index) = real_value - x2_parabolic_float(index); % cal error
-% 
-%         index = index + 1;
-%     end
-% end
-% 
+
+
+
+
+
+% ------------- obtain interpolation result and error @ case 1 (float) -------------
+% over-sampled cases
+m1_values = zeros(1, length(m1) * length(u_list)); % 對應的 m+μ 值
+% Linear
+x1_linear_float = zeros(1, length(m1)*length(u_list));
+err1_linear_float = zeros(1, length(m1)*length(u_list)); % error between linear interpolator and real value
+% Second order
+x1_second_order_float = zeros(1, length(m1)*length(u_list));
+err1_second_order_float = zeros(1, length(m1)*length(u_list)); % error between second order interpolator and real value
+% Parabolic
+x1_parabolic_float = zeros(1, length(m1)*length(u_list));
+err1_parabolic_float = zeros(1, length(m1)*length(u_list)); % error between parabolic interpolator and real value
+
+index = 1;
+for m = m1
+    for u = u_list
+        real_value =  cos(2 * pi * ((m + u) / 8)); % Real (continuous) waveform
+        m1_values(index) = m + u; % 記錄對應的 m+μ
+
+        % Linear interpolation
+        x1_linear_float(index) = linear_interpolation_float(u, x1_in_float(m + 1), x1_in_float(m));
+        err1_linear_float(index) = real_value - x1_linear_float(index); % cal error
+        % Second order interpolation
+        x1_second_order_float(index) = second_order_interpolation_float(u, x1_in_float(m + 2), x1_in_float(m + 1), x1_in_float(m));
+        err1_second_order_float(index) = real_value - x1_second_order_float(index); % cal error
+        % Parabolic interpolation
+        x1_parabolic_float(index) = parabolic_interpolation_float(u, x1_in_float(m + 2), x1_in_float(m + 1), x1_in_float(m), x1_in_float(m - 1));
+        % x1_parabolic_float(index) = parabolic_interpolation_tf32(u, x1_in_float(m + 2), x1_in_float(m + 1), x1_in_float(m), x1_in_float(m - 1));
+        err1_parabolic_float(index) = real_value - x1_parabolic_float(index); % cal error
+
+        index = index + 1;
+    end
+end
+
+% ------------- obtain interpolation result and error @ case 2 (float) -------------
+% typical cases
+m2_values = zeros(1, length(m2) * length(u_list)); % 對應的 m+μ 值
+% Linear
+x2_linear_float = zeros(1, length(m2)*length(u_list));
+err2_linear_float = zeros(1, length(m2)*length(u_list)); % error between linear interpolator and real value
+% Second order
+x2_second_order_float = zeros(1, length(m2)*length(u_list));
+err2_second_order_float = zeros(1, length(m2)*length(u_list)); % error between second order interpolator and real value
+% Parabolic
+x2_parabolic_float = zeros(1, length(m2)*length(u_list));
+err2_parabolic_float = zeros(1, length(m2)*length(u_list)); % error between parabolic interpolator and real value
+
+index = 1;
+for m = m2
+    for u = u_list
+        real_value =  (2^-15) * cos(2 * pi * (2 * (m + u) / 5 + 1)); % Real (continuous) waveform of case 2
+        m2_values(index) = m + u; % 記錄對應的 m+μ
+
+        % Linear interpolation
+        x2_linear_float(index) = linear_interpolation_float(u, x2_in_float(m + 1), x2_in_float(m));
+        err2_linear_float(index) = real_value - x2_linear_float(index); % cal error
+        % Second order interpolation
+        x2_second_order_float(index) = second_order_interpolation_float(u, x2_in_float(m + 2), x2_in_float(m + 1), x2_in_float(m));
+        err2_second_order_float(index) = real_value - x2_second_order_float(index); % cal error
+        % Parabolic interpolation
+        %x2_parabolic_float(index) = parabolic_interpolation_float(u, x2_in_float(m + 2), x2_in_float(m + 1), x2_in_float(m), x2_in_float(m - 1));
+        x2_parabolic_float(index) = parabolic_interpolation_tf32(u, x2_in_float(m + 2), x2_in_float(m + 1), x2_in_float(m), x2_in_float(m - 1));
+        err2_parabolic_float(index) = real_value - x2_parabolic_float(index); % cal error
+
+        index = index + 1;
+    end
+end
+
 
 
 
@@ -171,47 +176,41 @@ if mode == "draw_report_p1_2"
     title('Interpolation Error of Parabolic interpolation');
     legend;
     grid on;
+
+elseif mode == "generate_TF32_add_mul_bittrue_result"
+    % 讀取 A.dat 和 B.dat
+    A_lines = readlines('../TF32_Project/genpattern/MY_pattern/A.dat');
+    B_lines = readlines('../TF32_Project/genpattern/MY_pattern/B.dat');
+    % 確保兩檔案行數一致
+    assert(length(A_lines) == length(B_lines), 'A.dat 和 B.dat 行數不一致');
+
+    % 開啟輸出檔案
+    out_add_file = fopen('../TF32_Project/genpattern/MY_pattern/ADD/OUT.dat', 'w');
+    out_mul_file = fopen('../TF32_Project/genpattern/MY_pattern/MUL/OUT.dat', 'w');
+
+    % 處理每一行
+    for i = 1:length(A_lines)
+
+        bin_str_A = strtrim(A_lines(i));  % 去除空白
+        bin_str_B = strtrim(B_lines(i));
+
+
+        % 轉成 fixed point
+        operand_A = string_to_fixpoint(char(bin_str_A), 19, 0);
+        operand_B = string_to_fixpoint(char(bin_str_B), 19, 0);
+        % 執行
+        result_add = TF32_add(operand_A, operand_B);
+        result_mul = TF32_mul(operand_A, operand_B);
+
+        % 轉成 binary 並寫入檔案
+        fprintf(out_add_file, '%s\n', bin(result_add));
+        fprintf(out_mul_file, '%s\n', bin(result_mul));
+    end
+
+    % 關閉檔案
+    fclose(out_add_file);
+    fclose(out_mul_file);
 else
-    
-    % % 讀取 A.dat 和 B.dat
-    % A_lines = readlines('../TF32_Project/genpattern/MY_pattern/ADD/A.dat');
-    % B_lines = readlines('../TF32_Project/genpattern/MY_pattern/ADD/B.dat');
-    % 
-    % % 確保兩檔案行數一致
-    % assert(length(A_lines) == length(B_lines), 'A.dat 和 B.dat 行數不一致');
-    % 
-    % % 開啟輸出檔案
-    % out_file = fopen('../TF32_Project/genpattern/MY_pattern/ADD/OUT.dat', 'w');
-    % 
-    % % 處理每一行
-    % for i = 1:length(A_lines)
-    %     disp('-----------------------------------------------------')
-    % 
-    %     bin_str_A = strtrim(A_lines(i));  % 去除空白
-    %     bin_str_B = strtrim(B_lines(i));
-    % 
-    % 
-    %     % 轉成 fixed point
-    %     operand_A = string_to_fixpoint(char(bin_str_A), 19, 0);
-    %     operand_B = string_to_fixpoint(char(bin_str_B), 19, 0);
-    %     % 執行加法
-    %     result = TF32_add(operand_A, operand_B);
-    % 
-    %     % 轉成 binary 並寫入檔案
-    %     fprintf(out_file, '%s\n', bin(result));
-    % end
-    % 
-    % % 關閉檔案
-    % fclose(out_file);
-
-
-
-    operand_A = string_to_fixpoint('1100000110000000111', 19, 0);operand_B = string_to_fixpoint('0100000110000000101', 19, 0);disp(bin(TF32_add(operand_A, operand_B)));  % 1011110100000000000
-    operand_A = string_to_fixpoint('1100000110000000111', 19, 0);operand_B = string_to_fixpoint('1100100110000000101', 19, 0);disp(bin(TF32_add(operand_A, operand_B)));  % 1100100110000000101
-    % operand_A = string_to_fixpoint('1000000000000000000', 19, 0);operand_B = string_to_fixpoint('0111111010001000110', 19, 0);disp(bin(TF32_add(operand_A, operand_B)));
-    % operand_A = string_to_fixpoint('1100100110000000101', 19, 0);operand_B = string_to_fixpoint('1000000000000000000', 19, 0);disp(bin(TF32_add(operand_A, operand_B)));
-    % operand_A = string_to_fixpoint('1100100110000000101', 19, 0);operand_B = string_to_fixpoint('0100100110000000101', 19, 0);disp(bin(TF32_add(operand_A, operand_B)));
-    % operand_A = string_to_fixpoint('0000000000000000000', 19, 0);operand_B = string_to_fixpoint('1000000000000000000', 19, 0);disp(bin(TF32_add(operand_A, operand_B)));
 
 
 end
