@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW3/RTL/TF32_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TF32_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW3/RTL/TF32_div2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TF32_div2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW3/RTL/TF32_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TF32_mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW3/RTL/TF32_reverse_sign.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TF32_reverse_sign
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW3/RTL/parabolic_interpolator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module parabolic_interpolator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW3/TESTBED/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-311] analyzing module clk_gen

@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../RTL/TF32_add.v" \
+"../../../../../../RTL/TF32_div2.v" \
+"../../../../../../RTL/TF32_mul.v" \
+"../../../../../../RTL/TF32_reverse_sign.v" \
+"../../../../../../RTL/parabolic_interpolator.v" \
+"../../../../../../TESTBED/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
