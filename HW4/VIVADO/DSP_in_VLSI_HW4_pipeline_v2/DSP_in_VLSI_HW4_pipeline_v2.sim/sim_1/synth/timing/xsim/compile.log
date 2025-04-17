@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW4/VIVADO/DSP_in_VLSI_HW4_pipeline_v2/DSP_in_VLSI_HW4_pipeline_v2.sim/sim_1/synth/timing/xsim/testbench_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CORDIC_pipeline
+INFO: [VRFC 10-311] analyzing module single_stage
+INFO: [VRFC 10-311] analyzing module single_stage_0
+INFO: [VRFC 10-311] analyzing module single_stage_1
+INFO: [VRFC 10-311] analyzing module single_stage_2
+INFO: [VRFC 10-311] analyzing module single_stage_3
+INFO: [VRFC 10-311] analyzing module single_stage_4
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW4/TESTBED/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-311] analyzing module clk_gen

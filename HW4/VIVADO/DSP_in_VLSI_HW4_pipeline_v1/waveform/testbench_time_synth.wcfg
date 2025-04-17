@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_time_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="278.400 ns"></ZoomStartTime>
+      <ZoomEndTime time="415.801 ns"></ZoomEndTime>
+      <Cursor1Time time="286.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="229"></NameColumnWidth>
+      <ValueColumnWidth column_width="115"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_pipeline_u0/ValidIn" type="logic">
+      <obj_property name="ElementShortName">ValidIn</obj_property>
+      <obj_property name="ObjectShortName">ValidIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_pipeline_u0/InX" type="array">
+      <obj_property name="ElementShortName">InX[12:0]</obj_property>
+      <obj_property name="ObjectShortName">InX[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_pipeline_u0/InY" type="array">
+      <obj_property name="ElementShortName">InY[12:0]</obj_property>
+      <obj_property name="ObjectShortName">InY[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_pipeline_u0/OutX" type="array">
+      <obj_property name="ElementShortName">OutX[13:0]</obj_property>
+      <obj_property name="ObjectShortName">OutX[13:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_pipeline_u0/OutY" type="array">
+      <obj_property name="ElementShortName">OutY[13:0]</obj_property>
+      <obj_property name="ObjectShortName">OutY[13:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_pipeline_u0/ValidOut_Theda" type="logic">
+      <obj_property name="ElementShortName">ValidOut_Theda</obj_property>
+      <obj_property name="ObjectShortName">ValidOut_Theda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_pipeline_u0/OutTheda" type="array">
+      <obj_property name="ElementShortName">OutTheda[13:0]</obj_property>
+      <obj_property name="ObjectShortName">OutTheda[13:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_pipeline_u0/ValidOut_Magnitude" type="logic">
+      <obj_property name="ElementShortName">ValidOut_Magnitude</obj_property>
+      <obj_property name="ObjectShortName">ValidOut_Magnitude</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_pipeline_u0/Magnitude" type="array">
+      <obj_property name="ElementShortName">Magnitude[13:0]</obj_property>
+      <obj_property name="ObjectShortName">Magnitude[13:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
