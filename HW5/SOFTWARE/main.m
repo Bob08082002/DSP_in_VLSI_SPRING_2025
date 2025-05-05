@@ -1,8 +1,8 @@
 clear;
 mode = "report_2";
 mode = "report_3";
-mode = "";
-
+mode = "report_6";
+mode = "generate_rtl_input_pattern_and_param";
 
 % Load input from TA (32-sample)
 load('./FFTInput32.mat');  % variable `input` is 32x1 complex double
@@ -250,16 +250,29 @@ elseif mode == "report_3"
     % choose 10 bit frac for Twiddle Factor
     frac_bitwidth_twiddle = 10; 
 
+
+elseif mode == "report_6"
+    N = 32;
+    W = exp(-1j * 2 * pi * (0:N/2-1)' / N);  % Twiddle factors: W0 to W15
+    
+    for i = 0:15
+        fprintf("W%d = %f%+fj \n",i, real(W(i+1)),imag(W(i+1)));
+    end
+
+elseif mode == "generate_rtl_input_pattern_and_param"
+    
+
+
 else
  
 
-        % 
-        % X_my_freq_reorder_quant = zeros(96, 1);
-        % for symbol = 0:2
-        %     X_my_freq_reorder_quant(1 + symbol * 32 : 32 + symbol * 32) = fft32_mdc_complex_quant_full(x_my_time(1 + symbol * 32 : 32 + symbol * 32));
-        % end
-        % signal_power = mean(abs(X_my_freq_reorder).^2);
-        % noise_power = mean(abs(X_my_freq_reorder_quant - X_my_freq_reorder).^2);
-        % sqnr = 10 * log10(signal_power / noise_power);
-        % disp(sqnr)
+
+        X_my_freq_reorder_quant = zeros(96, 1);
+        for symbol = 0:2
+            X_my_freq_reorder_quant(1 + symbol * 32 : 32 + symbol * 32) = fft32_mdc_complex(x_my_time(1 + symbol * 32 : 32 + symbol * 32));
+        end
+        signal_power = mean(abs(X_my_freq_reorder).^2);
+        noise_power = mean(abs(X_my_freq_reorder_quant - X_my_freq_reorder).^2);
+        sqnr = 10 * log10(signal_power / noise_power);
+        disp(sqnr)
 end

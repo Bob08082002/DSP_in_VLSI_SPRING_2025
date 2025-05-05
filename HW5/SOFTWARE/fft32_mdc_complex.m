@@ -7,7 +7,6 @@ function X = fft32_mdc_complex(x)
 
     N = 32;
     W = exp(-1j * 2 * pi * (0:N/2-1)' / N);  % Twiddle factors: W0 to W15
-
     %% === Stage 1 ===
     % Commutator: split input
     UI1 = x(1:N/2);

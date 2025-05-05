@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+---------- SIMULATION START ----------
+---------- SIMULATION START ----------
+---------- RESET END ----------
+---------- SIMULATION END ----------
+$finish called at time : 6050 ns : File "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/TESTBED/testbench_pin_pon_buffer.v" Line 145
+---------- SIMULATION START ----------
+---------- RESET END ----------
+---------- SIMULATION END ----------
+$finish called at time : 6050 ns : File "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/TESTBED/testbench_pin_pon_buffer.v" Line 145
