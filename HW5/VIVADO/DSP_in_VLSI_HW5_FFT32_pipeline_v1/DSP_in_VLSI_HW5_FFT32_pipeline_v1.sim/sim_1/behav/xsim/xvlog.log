@@ -1,0 +1,25 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/FFT32_pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FFT32_pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/butterfly_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module butterfly_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/commutator.v" into library xil_defaultlib
+WARNING: [VRFC 10-9157] macro 'WORD_LEN' is redefined [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/commutator.v:1]
+INFO: [VRFC 10-311] analyzing module commutator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" into library xil_defaultlib
+WARNING: [VRFC 10-9157] macro 'WORD_LEN' is redefined [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v:3]
+INFO: [VRFC 10-311] analyzing module delay_element
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/pin_pon_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pin_pon_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/twiddle_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module twiddle_mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/TESTBED/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-311] analyzing module clk_gen

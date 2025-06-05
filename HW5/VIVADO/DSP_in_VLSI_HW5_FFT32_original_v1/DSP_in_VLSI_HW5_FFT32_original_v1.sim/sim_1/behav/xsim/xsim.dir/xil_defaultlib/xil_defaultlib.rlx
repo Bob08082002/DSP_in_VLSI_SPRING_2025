@@ -1,0 +1,16 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/FFT32_original.v,1746626931,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM16.v,,FFT32_original,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM16.v,1746548902,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM32.v,,ROM16,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM32.v,1746610325,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM4.v,,ROM32,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM4.v,1746548892,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM8.v,,ROM4,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM8.v,1746548899,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/butterfly_unit.v,,ROM8,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/butterfly_unit.v,1746610307,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/commutator.v,,butterfly_unit,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/commutator.v,1746539577,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v,,commutator,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v,1746544542,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/pin_pon_buffer.v,,delay_element,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/pin_pon_buffer.v,1746534335,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/twiddle_mul.v,,pin_pon_buffer,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/twiddle_mul.v,1746540172,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/TESTBED/testbench.v,,twiddle_mul,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/TESTBED/testbench.v,1746626799,verilog,,,,clk_gen;testbench,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/VIVADO/DSP_in_VLSI_HW5_FFT32_original_v1/DSP_in_VLSI_HW5_FFT32_original_v1.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,

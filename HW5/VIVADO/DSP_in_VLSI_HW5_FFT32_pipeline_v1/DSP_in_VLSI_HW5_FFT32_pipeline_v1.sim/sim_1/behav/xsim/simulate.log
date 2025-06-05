@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+---------- SIMULATION START ----------
+---------- RESET END ----------
+---------- SIMULATION START ----------
+---------- RESET END ----------
+---------- SIMULATION END ----------
+$finish called at time : 11462 ns : File "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/TESTBED/testbench.v" Line 191

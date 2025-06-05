@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,185.828 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,214.835 ns"></ZoomEndTime>
+      <Cursor1Time time="1,210.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="159"></NameColumnWidth>
+      <ValueColumnWidth column_width="212"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/testbench/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_u0/i_vectoring_mode" type="logic">
+      <obj_property name="ElementShortName">i_vectoring_mode</obj_property>
+      <obj_property name="ObjectShortName">i_vectoring_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_u0/i_in_valid" type="logic">
+      <obj_property name="ElementShortName">i_in_valid</obj_property>
+      <obj_property name="ObjectShortName">i_in_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_u0/i_X" type="array">
+      <obj_property name="ElementShortName">i_X[19:0]</obj_property>
+      <obj_property name="ObjectShortName">i_X[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_u0/i_Y" type="array">
+      <obj_property name="ElementShortName">i_Y[19:0]</obj_property>
+      <obj_property name="ObjectShortName">i_Y[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_u0/i_X_FF_r" type="array">
+      <obj_property name="ElementShortName">i_X_FF_r[19:0]</obj_property>
+      <obj_property name="ObjectShortName">i_X_FF_r[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_u0/i_Y_FF_r" type="array">
+      <obj_property name="ElementShortName">i_Y_FF_r[19:0]</obj_property>
+      <obj_property name="ObjectShortName">i_Y_FF_r[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_u0/o_out_valid" type="logic">
+      <obj_property name="ElementShortName">o_out_valid</obj_property>
+      <obj_property name="ObjectShortName">o_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_u0/o_X" type="array">
+      <obj_property name="ElementShortName">o_X[19:0]</obj_property>
+      <obj_property name="ObjectShortName">o_X[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_u0/o_Y" type="array">
+      <obj_property name="ElementShortName">o_Y[19:0]</obj_property>
+      <obj_property name="ObjectShortName">o_Y[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_u0/wire_X" type="array">
+      <obj_property name="ElementShortName">wire_X[0:16][19:0]</obj_property>
+      <obj_property name="ObjectShortName">wire_X[0:16][19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[0]" type="array">
+         <obj_property name="ElementShortName">[0][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[1]" type="array">
+         <obj_property name="ElementShortName">[1][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[2]" type="array">
+         <obj_property name="ElementShortName">[2][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[3]" type="array">
+         <obj_property name="ElementShortName">[3][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[4]" type="array">
+         <obj_property name="ElementShortName">[4][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[5]" type="array">
+         <obj_property name="ElementShortName">[5][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[6]" type="array">
+         <obj_property name="ElementShortName">[6][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[7]" type="array">
+         <obj_property name="ElementShortName">[7][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[8]" type="array">
+         <obj_property name="ElementShortName">[8][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[9]" type="array">
+         <obj_property name="ElementShortName">[9][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[10]" type="array">
+         <obj_property name="ElementShortName">[10][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[11]" type="array">
+         <obj_property name="ElementShortName">[11][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[12]" type="array">
+         <obj_property name="ElementShortName">[12][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[13]" type="array">
+         <obj_property name="ElementShortName">[13][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[14]" type="array">
+         <obj_property name="ElementShortName">[14][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[15]" type="array">
+         <obj_property name="ElementShortName">[15][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[16]" type="array">
+         <obj_property name="ElementShortName">[16][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[0]" type="array">
+         <obj_property name="ElementShortName">[0][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[1]" type="array">
+         <obj_property name="ElementShortName">[1][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[2]" type="array">
+         <obj_property name="ElementShortName">[2][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[3]" type="array">
+         <obj_property name="ElementShortName">[3][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[4]" type="array">
+         <obj_property name="ElementShortName">[4][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[5]" type="array">
+         <obj_property name="ElementShortName">[5][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[6]" type="array">
+         <obj_property name="ElementShortName">[6][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[7]" type="array">
+         <obj_property name="ElementShortName">[7][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[8]" type="array">
+         <obj_property name="ElementShortName">[8][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[9]" type="array">
+         <obj_property name="ElementShortName">[9][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[10]" type="array">
+         <obj_property name="ElementShortName">[10][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[11]" type="array">
+         <obj_property name="ElementShortName">[11][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[12]" type="array">
+         <obj_property name="ElementShortName">[12][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[13]" type="array">
+         <obj_property name="ElementShortName">[13][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[14]" type="array">
+         <obj_property name="ElementShortName">[14][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[15]" type="array">
+         <obj_property name="ElementShortName">[15][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_X[16]" type="array">
+         <obj_property name="ElementShortName">[16][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][19:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_u0/wire_Y" type="array">
+      <obj_property name="ElementShortName">wire_Y[0:16][19:0]</obj_property>
+      <obj_property name="ObjectShortName">wire_Y[0:16][19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[0]" type="array">
+         <obj_property name="ElementShortName">[0][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[1]" type="array">
+         <obj_property name="ElementShortName">[1][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[2]" type="array">
+         <obj_property name="ElementShortName">[2][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[3]" type="array">
+         <obj_property name="ElementShortName">[3][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[4]" type="array">
+         <obj_property name="ElementShortName">[4][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[5]" type="array">
+         <obj_property name="ElementShortName">[5][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[6]" type="array">
+         <obj_property name="ElementShortName">[6][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[7]" type="array">
+         <obj_property name="ElementShortName">[7][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[8]" type="array">
+         <obj_property name="ElementShortName">[8][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[9]" type="array">
+         <obj_property name="ElementShortName">[9][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[10]" type="array">
+         <obj_property name="ElementShortName">[10][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[11]" type="array">
+         <obj_property name="ElementShortName">[11][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[12]" type="array">
+         <obj_property name="ElementShortName">[12][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[13]" type="array">
+         <obj_property name="ElementShortName">[13][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[14]" type="array">
+         <obj_property name="ElementShortName">[14][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[15]" type="array">
+         <obj_property name="ElementShortName">[15][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[16]" type="array">
+         <obj_property name="ElementShortName">[16][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[0]" type="array">
+         <obj_property name="ElementShortName">[0][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[1]" type="array">
+         <obj_property name="ElementShortName">[1][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[2]" type="array">
+         <obj_property name="ElementShortName">[2][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[3]" type="array">
+         <obj_property name="ElementShortName">[3][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[4]" type="array">
+         <obj_property name="ElementShortName">[4][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[5]" type="array">
+         <obj_property name="ElementShortName">[5][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[6]" type="array">
+         <obj_property name="ElementShortName">[6][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[7]" type="array">
+         <obj_property name="ElementShortName">[7][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[8]" type="array">
+         <obj_property name="ElementShortName">[8][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[9]" type="array">
+         <obj_property name="ElementShortName">[9][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[10]" type="array">
+         <obj_property name="ElementShortName">[10][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[11]" type="array">
+         <obj_property name="ElementShortName">[11][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[12]" type="array">
+         <obj_property name="ElementShortName">[12][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[13]" type="array">
+         <obj_property name="ElementShortName">[13][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[14]" type="array">
+         <obj_property name="ElementShortName">[14][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[15]" type="array">
+         <obj_property name="ElementShortName">[15][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][19:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_u0/wire_Y[16]" type="array">
+         <obj_property name="ElementShortName">[16][19:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][19:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_u0/csd_X_in" type="array">
+      <obj_property name="ElementShortName">csd_X_in[19:0]</obj_property>
+      <obj_property name="ObjectShortName">csd_X_in[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_u0/csd_Y_in" type="array">
+      <obj_property name="ElementShortName">csd_Y_in[19:0]</obj_property>
+      <obj_property name="ObjectShortName">csd_Y_in[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_u0/X_sum" type="array">
+      <obj_property name="ElementShortName">X_sum[19:0]</obj_property>
+      <obj_property name="ObjectShortName">X_sum[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_u0/Y_sum" type="array">
+      <obj_property name="ElementShortName">Y_sum[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_sum[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

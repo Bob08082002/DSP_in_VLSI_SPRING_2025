@@ -1,0 +1,6 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/TESTBED/testbench.v,1746625500,verilog,,,,clk_gen;testbench,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/VIVADO/DSP_in_VLSI_HW5_FFT32_pipeline_v2/DSP_in_VLSI_HW5_FFT32_pipeline_v2.sim/sim_1/synth/timing/xsim/testbench_time_synth.v,1746627065,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/TESTBED/testbench.v,,FFT32_pipeline;delay_element;delay_element__parameterized0;delay_element__parameterized0_0;delay_element__parameterized1;delay_element__parameterized1_1;delay_element__parameterized2;delay_element__parameterized2_2;delay_element__parameterized3;delay_element__parameterized3_3;glbl;pin_pon_buffer;twiddle_mul;twiddle_mul_4;twiddle_mul_5;twiddle_mul_6,,,,,,,,

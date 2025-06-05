@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="671.193 ns"></ZoomStartTime>
+      <ZoomEndTime time="794.194 ns"></ZoomEndTime>
+      <Cursor1Time time="682.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="391"></NameColumnWidth>
+      <ValueColumnWidth column_width="253"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/cnt_r" type="array">
+      <obj_property name="ElementShortName">cnt_r[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_r[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/FFTInRe_FF_r" type="array">
+      <obj_property name="ElementShortName">FFTInRe_FF_r[10:0]</obj_property>
+      <obj_property name="ObjectShortName">FFTInRe_FF_r[10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/FFTInIm_FF_r" type="array">
+      <obj_property name="ElementShortName">FFTInIm_FF_r[10:0]</obj_property>
+      <obj_property name="ObjectShortName">FFTInIm_FF_r[10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/in_valid_FF_r" type="logic">
+      <obj_property name="ElementShortName">in_valid_FF_r</obj_property>
+      <obj_property name="ObjectShortName">in_valid_FF_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/w_butterfly_UO_re_stage[0]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">[0][10:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/w_butterfly_UO_im_stage[0]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">[0][10:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/w_butterfly_LO_re_stage[0]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">[0][10:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/w_butterfly_LO_im_stage[0]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">[0][10:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/w_twiddle_mul_result_re_stage[0]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">[0][10:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/w_twiddle_mul_result_im_stage[0]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">[0][10:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/w_ROM_out_re_stage[0]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">[0][10:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/w_ROM_out_im_stage[0]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">[0][10:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/MDCOutUpRe" type="array">
+      <obj_property name="ElementShortName">MDCOutUpRe[10:0]</obj_property>
+      <obj_property name="ObjectShortName">MDCOutUpRe[10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/MDCOutUpIm" type="array">
+      <obj_property name="ElementShortName">MDCOutUpIm[10:0]</obj_property>
+      <obj_property name="ObjectShortName">MDCOutUpIm[10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/MDCOutDownRe" type="array">
+      <obj_property name="ElementShortName">MDCOutDownRe[10:0]</obj_property>
+      <obj_property name="ObjectShortName">MDCOutDownRe[10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/MDCOutDownIm" type="array">
+      <obj_property name="ElementShortName">MDCOutDownIm[10:0]</obj_property>
+      <obj_property name="ObjectShortName">MDCOutDownIm[10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/MDC_out_valid" type="logic">
+      <obj_property name="ElementShortName">MDC_out_valid</obj_property>
+      <obj_property name="ObjectShortName">MDC_out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/w_twiddle_mul_result_re_stage[3]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">[3][10:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/FFT32_u0/w_twiddle_mul_result_im_stage[3]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">[3][10:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][10:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -3,5 +3,3 @@ INFO: [VRFC 10-311] analyzing module pin_pon_buffer
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/TESTBED/testbench_pin_pon_buffer.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module testbench_pin_pon_buffer
 INFO: [VRFC 10-311] analyzing module clk_gen
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/VIVADO/DSP_in_VLSI_HW5_pin_pon_buffer_v1/DSP_in_VLSI_HW5_pin_pon_buffer_v1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

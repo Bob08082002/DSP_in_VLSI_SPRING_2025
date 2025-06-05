@@ -1,7 +1,7 @@
-Running: xsim.dir/testbench_pin_pon_buffer_behav/xsimk.exe -simmode gui -wdb testbench_pin_pon_buffer_behav.wdb -simrunnum 0 -socket 57425
+Running: xsim.dir/testbench_pin_pon_buffer_behav/xsimk.exe -simmode gui -wdb testbench_pin_pon_buffer_behav.wdb -simrunnum 0 -socket 51739
 Design successfully loaded
-Design Loading Memory Usage: 10592 KB (Peak: 10592 KB)
-Design Loading CPU Usage: 46 ms
+Design Loading Memory Usage: 9780 KB (Peak: 9780 KB)
+Design Loading CPU Usage: 0 ms
 Simulation completed
-Simulation Memory Usage: 11556 KB (Peak: 11556 KB)
-Simulation CPU Usage: 93 ms
+Simulation Memory Usage: 10664 KB (Peak: 10664 KB)
+Simulation CPU Usage: 31 ms

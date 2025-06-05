@@ -1,0 +1,92 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 11 for port 'i_commutator_UI_re' [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/FFT32_pipeline.v:110]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 11 for port 'i_commutator_UI_im' [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/FFT32_pipeline.v:111]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 3 for port 'i_addr' [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/FFT32_pipeline.v:265]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 2 for port 'i_addr' [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/FFT32_pipeline.v:367]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'i_addr' [C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/FFT32_pipeline.v:471]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/FFT32_pipeline.v" Line 6. Module FFT32_pipeline doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/commutator.v" Line 3. Module commutator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/butterfly_unit.v" Line 3. Module butterfly_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM32.v" Line 5. Module ROM32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/twiddle_mul.v" Line 3. Module twiddle_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/commutator.v" Line 3. Module commutator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/butterfly_unit.v" Line 3. Module butterfly_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM16.v" Line 5. Module ROM16 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/twiddle_mul.v" Line 3. Module twiddle_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/commutator.v" Line 3. Module commutator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/butterfly_unit.v" Line 3. Module butterfly_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM8.v" Line 5. Module ROM8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/twiddle_mul.v" Line 3. Module twiddle_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/commutator.v" Line 3. Module commutator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/butterfly_unit.v" Line 3. Module butterfly_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM4.v" Line 5. Module ROM4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/twiddle_mul.v" Line 3. Module twiddle_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/commutator.v" Line 3. Module commutator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/butterfly_unit.v" Line 3. Module butterfly_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/pin_pon_buffer.v" Line 6. Module pin_pon_buffer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/FFT32_pipeline.v" Line 6. Module FFT32_pipeline doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/commutator.v" Line 3. Module commutator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/butterfly_unit.v" Line 3. Module butterfly_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM32.v" Line 5. Module ROM32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/twiddle_mul.v" Line 3. Module twiddle_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/commutator.v" Line 3. Module commutator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/butterfly_unit.v" Line 3. Module butterfly_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM16.v" Line 5. Module ROM16 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/twiddle_mul.v" Line 3. Module twiddle_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/commutator.v" Line 3. Module commutator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/butterfly_unit.v" Line 3. Module butterfly_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM8.v" Line 5. Module ROM8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/twiddle_mul.v" Line 3. Module twiddle_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/commutator.v" Line 3. Module commutator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/butterfly_unit.v" Line 3. Module butterfly_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/ROM4.v" Line 5. Module ROM4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/twiddle_mul.v" Line 3. Module twiddle_mul doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/commutator.v" Line 3. Module commutator doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/delay_element.v" Line 6. Module delay_element(DELAY=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/butterfly_unit.v" Line 3. Module butterfly_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/HW5/RTL/pin_pon_buffer.v" Line 6. Module pin_pon_buffer doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_gen
+Compiling module xil_defaultlib.commutator
+Compiling module xil_defaultlib.delay_element
+Compiling module xil_defaultlib.butterfly_unit
+Compiling module xil_defaultlib.ROM32
+Compiling module xil_defaultlib.twiddle_mul
+Compiling module xil_defaultlib.delay_element(DELAY=8)
+Compiling module xil_defaultlib.ROM16
+Compiling module xil_defaultlib.delay_element(DELAY=4)
+Compiling module xil_defaultlib.ROM8
+Compiling module xil_defaultlib.delay_element(DELAY=2)
+Compiling module xil_defaultlib.ROM4
+Compiling module xil_defaultlib.delay_element(DELAY=1)
+Compiling module xil_defaultlib.pin_pon_buffer
+Compiling module xil_defaultlib.FFT32_pipeline
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../RTL/FFT32_original.v" \
+"../../../../../../RTL/ROM16.v" \
+"../../../../../../RTL/ROM32.v" \
+"../../../../../../RTL/ROM4.v" \
+"../../../../../../RTL/ROM8.v" \
+"../../../../../../RTL/butterfly_unit.v" \
+"../../../../../../RTL/commutator.v" \
+"../../../../../../RTL/delay_element.v" \
+"../../../../../../RTL/pin_pon_buffer.v" \
+"../../../../../../RTL/twiddle_mul.v" \
+"../../../../../../TESTBED/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
