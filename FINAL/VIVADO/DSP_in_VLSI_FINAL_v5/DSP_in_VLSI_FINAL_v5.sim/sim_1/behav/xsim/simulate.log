@@ -1,0 +1,18 @@
+Time resolution is 1 ps
+---------- SIMULATION START ----------
+WARNING: File C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/TESTBED/pattern/RANDOM_DATA_I.dat referenced on C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/RTL/CORDIC.v at line 315 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+---------- RESET END ----------
+---------- SIMULATION START ----------
+WARNING: File C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/TESTBED/pattern/RANDOM_DATA_I.dat referenced on C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/RTL/CORDIC.v at line 315 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+---------- RESET END ----------
+---------- SIMULATION END ----------
+$finish called at time : 7034 ns : File "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/TESTBED/testbench.v" Line 169
+---------- SIMULATION START ----------
+WARNING: File C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/TESTBED/pattern/RANDOM_DATA_I.dat referenced on C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/RTL/CORDIC.v at line 315 cannot be opened for reading. Please ensure that this file is available in the current working directory or parent directory of xsim.dir location specified via -xsimdir switch.
+---------- RESET END ----------
+---------- SIMULATION END ----------
+$finish called at time : 7034 ns : File "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/TESTBED/testbench.v" Line 169
+---------- SIMULATION START ----------
+---------- RESET END ----------
+---------- SIMULATION END ----------
+$finish called at time : 7034 ns : File "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/TESTBED/testbench.v" Line 169

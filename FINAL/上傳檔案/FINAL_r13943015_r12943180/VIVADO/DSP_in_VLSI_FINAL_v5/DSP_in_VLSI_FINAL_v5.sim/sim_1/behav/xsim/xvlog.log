@@ -1,0 +1,21 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/RTL/BACKSUB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BACK_SUBSTITUTION
+INFO: [VRFC 10-311] analyzing module reciprocal
+INFO: [VRFC 10-311] analyzing module back_sub_main
+INFO: [VRFC 10-311] analyzing module fi_mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/RTL/CORDIC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CORDIC
+INFO: [VRFC 10-311] analyzing module single_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/RTL/CORDIC_ARRAY.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CORDIC_ARRAY
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/RTL/DU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DU_0
+INFO: [VRFC 10-311] analyzing module DU_1_2
+INFO: [VRFC 10-311] analyzing module DU_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/RTL/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/TESTBED/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-311] analyzing module clk_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/VIVADO/DSP_in_VLSI_FINAL_v5/DSP_in_VLSI_FINAL_v5.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

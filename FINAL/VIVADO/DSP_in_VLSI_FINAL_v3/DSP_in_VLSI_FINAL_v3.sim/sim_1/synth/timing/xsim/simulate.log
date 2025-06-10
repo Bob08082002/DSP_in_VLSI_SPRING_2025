@@ -1,0 +1,11 @@
+Time resolution is 1 ps
+---------- SIMULATION START ----------
+---------- SIMULATION START ----------
+---------- RESET END ----------
+---------- SIMULATION END ----------
+$finish called at time : 4525 ns : File "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/TESTBED/testbench.v" Line 162
+---------- SIMULATION START ----------
+---------- RESET END ----------
+---------- SIMULATION END ----------
+$finish called at time : 4525 ns : File "C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/TESTBED/testbench.v" Line 162
+INFO: xsimkernel Simulation Memory Usage: 572264 KB (Peak: 572264 KB), Simulation CPU Usage: 485562 ms

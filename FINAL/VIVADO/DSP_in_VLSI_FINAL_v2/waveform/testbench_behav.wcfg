@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="249.790 ns"></ZoomStartTime>
+      <ZoomEndTime time="337.419 ns"></ZoomEndTime>
+      <Cursor1Time time="319.679 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="177"></NameColumnWidth>
+      <ValueColumnWidth column_width="258"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/i_vectoring_mode" type="logic">
+      <obj_property name="ElementShortName">i_vectoring_mode</obj_property>
+      <obj_property name="ObjectShortName">i_vectoring_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/i_data_1" type="array">
+      <obj_property name="ElementShortName">i_data_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">i_data_1[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/i_data_2" type="array">
+      <obj_property name="ElementShortName">i_data_2[19:0]</obj_property>
+      <obj_property name="ObjectShortName">i_data_2[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/i_data_3" type="array">
+      <obj_property name="ElementShortName">i_data_3[19:0]</obj_property>
+      <obj_property name="ObjectShortName">i_data_3[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/i_data_4" type="array">
+      <obj_property name="ElementShortName">i_data_4[19:0]</obj_property>
+      <obj_property name="ObjectShortName">i_data_4[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/o_data_1" type="array">
+      <obj_property name="ElementShortName">o_data_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data_1[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/o_data_2" type="array">
+      <obj_property name="ElementShortName">o_data_2[19:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data_2[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/o_data_3" type="array">
+      <obj_property name="ElementShortName">o_data_3[19:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data_3[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/o_data_4" type="array">
+      <obj_property name="ElementShortName">o_data_4[19:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data_4[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group290" type="group">
+      <obj_property name="label">PE1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u1/i_vectoring_mode" type="logic">
+         <obj_property name="ElementShortName">i_vectoring_mode</obj_property>
+         <obj_property name="ObjectShortName">i_vectoring_mode</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u1/i_X" type="array">
+         <obj_property name="ElementShortName">i_X[19:0]</obj_property>
+         <obj_property name="ObjectShortName">i_X[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u1/i_Y" type="array">
+         <obj_property name="ElementShortName">i_Y[19:0]</obj_property>
+         <obj_property name="ObjectShortName">i_Y[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u1/csd_X_in" type="array">
+         <obj_property name="ElementShortName">csd_X_in[19:0]</obj_property>
+         <obj_property name="ObjectShortName">csd_X_in[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u1/csd_Y_in" type="array">
+         <obj_property name="ElementShortName">csd_Y_in[19:0]</obj_property>
+         <obj_property name="ObjectShortName">csd_Y_in[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u1/o_vectoring_mode" type="logic">
+         <obj_property name="ElementShortName">o_vectoring_mode</obj_property>
+         <obj_property name="ObjectShortName">o_vectoring_mode</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u1/o_X" type="array">
+         <obj_property name="ElementShortName">o_X[19:0]</obj_property>
+         <obj_property name="ObjectShortName">o_X[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u1/o_Y" type="array">
+         <obj_property name="ElementShortName">o_Y[19:0]</obj_property>
+         <obj_property name="ObjectShortName">o_Y[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group297" type="group">
+      <obj_property name="label">PE2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u2/i_vectoring_mode" type="logic">
+         <obj_property name="ElementShortName">i_vectoring_mode</obj_property>
+         <obj_property name="ObjectShortName">i_vectoring_mode</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u2/i_X" type="array">
+         <obj_property name="ElementShortName">i_X[19:0]</obj_property>
+         <obj_property name="ObjectShortName">i_X[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u2/i_Y" type="array">
+         <obj_property name="ElementShortName">i_Y[19:0]</obj_property>
+         <obj_property name="ObjectShortName">i_Y[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u2/o_vectoring_mode" type="logic">
+         <obj_property name="ElementShortName">o_vectoring_mode</obj_property>
+         <obj_property name="ObjectShortName">o_vectoring_mode</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u2/o_X" type="array">
+         <obj_property name="ElementShortName">o_X[19:0]</obj_property>
+         <obj_property name="ObjectShortName">o_X[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u2/o_Y" type="array">
+         <obj_property name="ElementShortName">o_Y[19:0]</obj_property>
+         <obj_property name="ObjectShortName">o_Y[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group215" type="group">
+      <obj_property name="label">PE4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u4/i_vectoring_mode" type="logic">
+         <obj_property name="ElementShortName">i_vectoring_mode</obj_property>
+         <obj_property name="ObjectShortName">i_vectoring_mode</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u4/i_X" type="array">
+         <obj_property name="ElementShortName">i_X[19:0]</obj_property>
+         <obj_property name="ObjectShortName">i_X[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u4/i_Y" type="array">
+         <obj_property name="ElementShortName">i_Y[19:0]</obj_property>
+         <obj_property name="ObjectShortName">i_Y[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u4/o_X" type="array">
+         <obj_property name="ElementShortName">o_X[19:0]</obj_property>
+         <obj_property name="ObjectShortName">o_X[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u4/o_Y" type="array">
+         <obj_property name="ElementShortName">o_Y[19:0]</obj_property>
+         <obj_property name="ObjectShortName">o_Y[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group283" type="group">
+      <obj_property name="label">PE6</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u6/i_vectoring_mode" type="logic">
+         <obj_property name="ElementShortName">i_vectoring_mode</obj_property>
+         <obj_property name="ObjectShortName">i_vectoring_mode</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u6/i_X" type="array">
+         <obj_property name="ElementShortName">i_X[19:0]</obj_property>
+         <obj_property name="ObjectShortName">i_X[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u6/i_Y" type="array">
+         <obj_property name="ElementShortName">i_Y[19:0]</obj_property>
+         <obj_property name="ObjectShortName">i_Y[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u6/o_vectoring_mode" type="logic">
+         <obj_property name="ElementShortName">o_vectoring_mode</obj_property>
+         <obj_property name="ObjectShortName">o_vectoring_mode</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u6/o_X" type="array">
+         <obj_property name="ElementShortName">o_X[19:0]</obj_property>
+         <obj_property name="ObjectShortName">o_X[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CORDIC_ARRAY_u0/CORDIC_u6/o_Y" type="array">
+         <obj_property name="ElementShortName">o_Y[19:0]</obj_property>
+         <obj_property name="ObjectShortName">o_Y[19:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../RTL/BACKSUB.v" \
+"../../../../../../RTL/CORDIC.v" \
+"../../../../../../RTL/CORDIC_ARRAY.v" \
+"../../../../../../RTL/DU.v" \
+"../../../../../../RTL/top.v" \
+"../../../../../../TESTBED/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,6 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/TESTBED/testbench.v,1749454900,verilog,,,,clk_gen;testbench,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/DSP_in_VLSI_FINAL_v3.sim/sim_1/synth/timing/xsim/testbench_time_synth.v,1749455679,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/TESTBED/testbench.v,,BACK_SUBSTITUTION;CORDIC;CORDIC_0;CORDIC_1;CORDIC_2;CORDIC_3;CORDIC_4;CORDIC_ARRAY;DU_0;DU_1;DU_1_5;DU_1_6;back_sub_main;fi_mul;fi_mul_10;fi_mul_11;fi_mul_12;fi_mul_13;fi_mul_14;fi_mul_15;fi_mul_7;fi_mul_8;fi_mul_9;glbl;top,,,,,,,,

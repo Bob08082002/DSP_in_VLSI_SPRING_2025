@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_time_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="357.382 ns"></ZoomStartTime>
+      <ZoomEndTime time="510.983 ns"></ZoomEndTime>
+      <Cursor1Time time="1,038.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="191"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/testbench/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/InValid" type="logic">
+      <obj_property name="ElementShortName">InValid</obj_property>
+      <obj_property name="ObjectShortName">InValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/InData1" type="array">
+      <obj_property name="ElementShortName">InData1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">InData1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/InData2" type="array">
+      <obj_property name="ElementShortName">InData2[19:0]</obj_property>
+      <obj_property name="ObjectShortName">InData2[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/InData3" type="array">
+      <obj_property name="ElementShortName">InData3[19:0]</obj_property>
+      <obj_property name="ObjectShortName">InData3[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/InData4" type="array">
+      <obj_property name="ElementShortName">InData4[19:0]</obj_property>
+      <obj_property name="ObjectShortName">InData4[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/OutValid" type="logic">
+      <obj_property name="ElementShortName">OutValid</obj_property>
+      <obj_property name="ObjectShortName">OutValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/OutData1" type="array">
+      <obj_property name="ElementShortName">OutData1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">OutData1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/OutData2" type="array">
+      <obj_property name="ElementShortName">OutData2[19:0]</obj_property>
+      <obj_property name="ObjectShortName">OutData2[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/OutData3" type="array">
+      <obj_property name="ElementShortName">OutData3[19:0]</obj_property>
+      <obj_property name="ObjectShortName">OutData3[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/OutData4" type="array">
+      <obj_property name="ElementShortName">OutData4[19:0]</obj_property>
+      <obj_property name="ObjectShortName">OutData4[19:0]</obj_property>
+   </wvobject>
+</wave_config>

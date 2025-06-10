@@ -1,0 +1,157 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Jun  9 10:01:32 2025
+# Process ID: 24252
+# Current directory: C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24228 C:\Users\zhanggenqi\Desktop\DSP_in_VLSI\FINAL\VIVADO\DSP_in_VLSI_FINAL_v3\DSP_in_VLSI_FINAL_v3.xpr
+# Log file: C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/vivado.log
+# Journal file: C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3\vivado.jou
+# Running On        :DESKTOP-T5CR5M4
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-12500
+# CPU Frequency     :2995 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :16905 MB
+# Swap memory       :5637 MB
+# Total Virtual     :22542 MB
+# Available Virtual :6266 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/DSP_in_VLSI_FINAL_v3.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg
+source testbench.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg
+source testbench.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg
+source testbench.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg
+source testbench.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/top_u0/vectoring_mode}} 
+restart
+run all
+save_wave_config {C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg}
+close_sim
+launch_simulation
+add_files -norecurse C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/RTL/BACKSUB.v
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg
+source testbench.tcl
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/top_u0/w_in_valid_backsub}} 
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/top_u0/w_data_cordic_array}} 
+restart
+run all
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/top_u0/vectoring_mode}} 
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/top_u0/InValid}} 
+restart
+run all
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/top_u0/InValid_FF1_r}} {{/testbench/top_u0/InValid_FF2_r}} 
+restart
+run all
+save_wave_config {C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg
+source testbench.tcl
+run all
+restart
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg
+source testbench.tcl
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/top_u0/BACK_SUBSTITUTION_u0/in_valid}} {{/testbench/top_u0/BACK_SUBSTITUTION_u0/c3_x}} {{/testbench/top_u0/BACK_SUBSTITUTION_u0/c5_x}} {{/testbench/top_u0/BACK_SUBSTITUTION_u0/c6_x}} {{/testbench/top_u0/BACK_SUBSTITUTION_u0/c6_y}} {{/testbench/top_u0/BACK_SUBSTITUTION_u0/out_valid}} {{/testbench/top_u0/BACK_SUBSTITUTION_u0/OutData1}} {{/testbench/top_u0/BACK_SUBSTITUTION_u0/OutData2}} {{/testbench/top_u0/BACK_SUBSTITUTION_u0/OutData3}} {{/testbench/top_u0/BACK_SUBSTITUTION_u0/OutData4}} 
+restart
+run all
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/top_u0/BACK_SUBSTITUTION_u0/recip_in}} {{/testbench/top_u0/BACK_SUBSTITUTION_u0/recip_out}} 
+restart
+run all
+save_wave_config {C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg
+source testbench.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg
+source testbench.tcl
+save_wave_config {C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg
+source testbench.tcl
+restart
+run all
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/pattern_idx_out}} 
+restart
+run all
+save_wave_config {C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg
+source testbench.tcl
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+close_design
+add_files -fileset constrs_1 -norecurse C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/constraint/DSP_in_VLSI_FINAL.xdc
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+refresh_design
+reset_run synth_1
+close_design
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+launch_simulation -mode post-synthesis -type timing
+open_wave_config C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg
+source testbench.tcl
+restart
+run all
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/top_u0/InData4}} {{/testbench/top_u0/InValid}} 
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/top_u0/InData1}} {{/testbench/top_u0/InData2}} {{/testbench/top_u0/InData3}} 
+current_wave_config {testbench_behav.wcfg}
+add_wave {{/testbench/top_u0/OutData1}} {{/testbench/top_u0/OutData2}} {{/testbench/top_u0/OutData3}} {{/testbench/top_u0/OutData4}} {{/testbench/top_u0/OutValid}} 
+restart
+run all
+current_wave_config {testbench_behav.wcfg}
+current_sim simulation_11
+add_wave {{/testbench/top_u0/BACK_SUBSTITUTION_u0/u_recip}} 
+restart
+run all
+current_sim simulation_12
+close_sim
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_2
+save_wave_config {C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v3/waveform/testbench_behav.wcfg}
+close_sim

@@ -1,0 +1,11 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/RTL/BACKSUB.v,1749538195,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/RTL/CORDIC.v,,BACK_SUBSTITUTION;back_sub_main;fi_mul;reciprocal,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/RTL/CORDIC.v,1749483108,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/RTL/CORDIC_ARRAY.v,,CORDIC;single_stage,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/RTL/CORDIC_ARRAY.v,1749481886,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/RTL/DU.v,,CORDIC_ARRAY,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/RTL/DU.v,1749481668,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/RTL/top.v,,DU_0;DU_1_2;DU_3,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/RTL/top.v,1749538256,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/TESTBED/testbench.v,,top,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/TESTBED/testbench.v,1749560065,verilog,,,,clk_gen;testbench,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/VIVADO/DSP_in_VLSI_FINAL_v5/DSP_in_VLSI_FINAL_v5.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,

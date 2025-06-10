@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4,034.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="4,408.001 ns"></ZoomEndTime>
+      <Cursor1Time time="4,377.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="191"></NameColumnWidth>
+      <ValueColumnWidth column_width="92"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/testbench/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/InValid" type="logic">
+      <obj_property name="ElementShortName">InValid</obj_property>
+      <obj_property name="ObjectShortName">InValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/InData1" type="array">
+      <obj_property name="ElementShortName">InData1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">InData1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/InData2" type="array">
+      <obj_property name="ElementShortName">InData2[19:0]</obj_property>
+      <obj_property name="ObjectShortName">InData2[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/InData3" type="array">
+      <obj_property name="ElementShortName">InData3[19:0]</obj_property>
+      <obj_property name="ObjectShortName">InData3[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/InData4" type="array">
+      <obj_property name="ElementShortName">InData4[19:0]</obj_property>
+      <obj_property name="ObjectShortName">InData4[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/OutValid" type="logic">
+      <obj_property name="ElementShortName">OutValid</obj_property>
+      <obj_property name="ObjectShortName">OutValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/OutData1" type="array">
+      <obj_property name="ElementShortName">OutData1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">OutData1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/OutData2" type="array">
+      <obj_property name="ElementShortName">OutData2[19:0]</obj_property>
+      <obj_property name="ObjectShortName">OutData2[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/OutData3" type="array">
+      <obj_property name="ElementShortName">OutData3[19:0]</obj_property>
+      <obj_property name="ObjectShortName">OutData3[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/OutData4" type="array">
+      <obj_property name="ElementShortName">OutData4[19:0]</obj_property>
+      <obj_property name="ObjectShortName">OutData4[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/vectoring_mode" type="logic">
+      <obj_property name="ElementShortName">vectoring_mode</obj_property>
+      <obj_property name="ObjectShortName">vectoring_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/BACK_SUBSTITUTION_u0/in_valid" type="logic">
+      <obj_property name="ElementShortName">in_valid</obj_property>
+      <obj_property name="ObjectShortName">in_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/BACK_SUBSTITUTION_u0/c3_x" type="array">
+      <obj_property name="ElementShortName">c3_x[19:0]</obj_property>
+      <obj_property name="ObjectShortName">c3_x[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/BACK_SUBSTITUTION_u0/c5_x" type="array">
+      <obj_property name="ElementShortName">c5_x[19:0]</obj_property>
+      <obj_property name="ObjectShortName">c5_x[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/BACK_SUBSTITUTION_u0/c6_x" type="array">
+      <obj_property name="ElementShortName">c6_x[19:0]</obj_property>
+      <obj_property name="ObjectShortName">c6_x[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/BACK_SUBSTITUTION_u0/c6_y" type="array">
+      <obj_property name="ElementShortName">c6_y[19:0]</obj_property>
+      <obj_property name="ObjectShortName">c6_y[19:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/BACK_SUBSTITUTION_u0/out_valid" type="logic">
+      <obj_property name="ElementShortName">out_valid</obj_property>
+      <obj_property name="ObjectShortName">out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/BACK_SUBSTITUTION_u0/OutData1" type="array">
+      <obj_property name="ElementShortName">OutData1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">OutData1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/BACK_SUBSTITUTION_u0/OutData2" type="array">
+      <obj_property name="ElementShortName">OutData2[19:0]</obj_property>
+      <obj_property name="ObjectShortName">OutData2[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/BACK_SUBSTITUTION_u0/OutData3" type="array">
+      <obj_property name="ElementShortName">OutData3[19:0]</obj_property>
+      <obj_property name="ObjectShortName">OutData3[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/top_u0/BACK_SUBSTITUTION_u0/OutData4" type="array">
+      <obj_property name="ElementShortName">OutData4[19:0]</obj_property>
+      <obj_property name="ObjectShortName">OutData4[19:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/RTL/CORDIC.v,1749293455,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/RTL/CORDIC_ARRAY.v,,CORDIC;single_stage,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/RTL/CORDIC_ARRAY.v,1749229835,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/RTL/DU.v,,CORDIC_ARRAY,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/RTL/DU.v,1749229554,verilog,,C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/TESTBED/testbench.v,,DU_0;DU_1,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/TESTBED/testbench.v,1749228388,verilog,,,,clk_gen;testbench,,,,,,,,
+C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/VIVADO/DSP_in_VLSI_FINAL_v2/DSP_in_VLSI_FINAL_v2.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,

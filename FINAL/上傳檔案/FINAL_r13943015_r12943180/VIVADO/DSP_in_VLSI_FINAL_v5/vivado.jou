@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Jun 10 21:19:07 2025
+# Process ID: 30452
+# Current directory: C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/VIVADO/DSP_in_VLSI_FINAL_v5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27932 C:\Users\zhanggenqi\Desktop\DSP_in_VLSI\FINAL\上傳檔案\FINAL_r13943015_r12943180\VIVADO\DSP_in_VLSI_FINAL_v5\DSP_in_VLSI_FINAL_v5.xpr
+# Log file: C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/VIVADO/DSP_in_VLSI_FINAL_v5/vivado.log
+# Journal file: C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/VIVADO/DSP_in_VLSI_FINAL_v5\vivado.jou
+# Running On        :DESKTOP-T5CR5M4
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-12500
+# CPU Frequency     :2995 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :16905 MB
+# Swap memory       :14687 MB
+# Total Virtual     :31592 MB
+# Available Virtual :5894 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/zhanggenqi/Desktop/DSP_in_VLSI/FINAL/上傳檔案/FINAL_r13943015_r12943180/VIVADO/DSP_in_VLSI_FINAL_v5/DSP_in_VLSI_FINAL_v5.xpr
+update_compile_order -fileset sources_1
+launch_simulation
